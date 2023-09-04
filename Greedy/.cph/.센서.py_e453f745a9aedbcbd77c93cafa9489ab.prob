@@ -1,0 +1,1 @@
+{"name":"Local: 센서","url":"e:\\backup\\pnu\\Brio-yj\\p.s\\Greedy\\센서.py","tests":[{"id":1693789984117,"input":"6\n2\n1 6 9 3 6 7","output":"5"},{"id":1693790012839,"input":"10\n5\n20 3 14 6 7 8 18 10 12 15","output":"7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\backup\\pnu\\Brio-yj\\p.s\\Greedy\\센서.py","group":"local","local":true}
