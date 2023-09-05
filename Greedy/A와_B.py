@@ -24,8 +24,8 @@ else:
     print(0)
 
 
-'''
-S = input()
+'''                                 제일 중요한거 : 안풀리면 문제를 반대로 풀 수 있다고 생각해야한다
+S = input()                         A->B찾기가 아니라 B->A찾기
 T = input()
 
 flag = False
