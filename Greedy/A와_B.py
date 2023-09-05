@@ -1,34 +1,50 @@
+#참고 : https://tooo1.tistory.com/415
 import sys
 A=sys.stdin.readline().rstrip()
 B=sys.stdin.readline().rstrip()
 
 alist=[]
+blist=[]
 for i in A:
     alist.append(i)
 
-blist=[]
 for i in B:
     blist.append(i)
 
-cnt=len(blist)-len(alist)
-newcnt=2**cnt #8
-newlist=alist.copy()
-j=0
-for i in range(newcnt-1):
-    for j in range(cnt):
-        newlist.append("A")
-        if newlist==blist:
-            print(newlist)
-            print(1)
-            quit()
-        for k in range(cnt-j-1):
-            newlist.reverse()
-            newlist.append("B")
-            if newlist==blist:
-                print(newlist)
-                print(1)
-                quit()
-        newlist=alist.copy()
+flag = False
+while len(blist)>len(alist):
+    if blist[-1]=="A":
+        blist.pop()
+    else:
+        blist.pop()
+        blist=blist[::-1]
+if blist==alist:
+    print(1)
+else:
+    print(0)
 
-print(newlist)
-print(0)
+
+'''
+S = input()
+T = input()
+
+flag = False
+
+while len(S) <= len(T):
+    if S != T:                 
+        # 뒤에 A 삭제
+        if T[-1] == 'A':            신기한건 문자열인데 따로 리스트에 안넣어도 된다
+            T = T[:-1]                  
+        # B 삭제 후 뒤집기
+        else:                       슬라이싱 사용하기
+            T = T[:-1]              맨뒤의 원소 제거 하고 반환
+            T = T[::-1]             문자열 뒤집기
+    else:
+        flag = True
+        break
+
+if flag:
+    print(1)
+else:
+    print(0)
+'''
