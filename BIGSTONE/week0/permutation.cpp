@@ -15,6 +15,7 @@ permutation 함수는 제일 처음에는 출력안해주니까 따로 한번 �
 
 int arr[4]={1,2,3,4};
 int main(){
+    sort(arr,arr+4);
     do{
         for(auto i :arr)cout<<i;
         cout<<endl;
