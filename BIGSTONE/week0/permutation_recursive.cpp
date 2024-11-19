@@ -7,6 +7,7 @@ void print(){
     for(auto n:nv) cout<<n<<"\t";
     cout<<"\n";
 }
+/*
 void f(int n, int r, int depth){
     if(depth==r){
         print();
@@ -23,7 +24,7 @@ int main(){
     f(4,4,0);
 }
 
-
+*/
 /*
 고정 개념 구현 설명
 스왑을 통한 고정:

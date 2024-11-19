@@ -1,22 +1,23 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<string>split(string &input, string del){
-    auto start=0;
-    auto end=input.find(del);
+vector<string> split(string str, string del){
+    auto start =0;
+    auto end = str.find(del);
 
-    vector<string> result;
-    while(end!= string::npos){
-        result.push_back(input.substr(start,end-start));
+    vector<string> sv;
+    while(end != string::npos){
+        sv.push_back(str.substr(start,end-start));
         start = end + del.size();
-        end = input.find(del,start);
+        end = str.find(del,start);
     }
-    result.push_back(input.substr(start));
-    return result;
-    
+    sv.push_back(str.substr(start));
+
+    return sv;
 }
+
 int main(){
-    string str ="apple,banana,orange";
+    string str ="apple,banana,orange,134";
     vector<string> fv = split(str,",");
     for(auto ch:fv) cout<<ch<<"\n";
 }
