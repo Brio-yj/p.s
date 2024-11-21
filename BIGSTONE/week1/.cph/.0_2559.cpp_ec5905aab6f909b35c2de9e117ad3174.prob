@@ -1,0 +1,1 @@
+{"name":"Local: 0_2559","url":"e:\\backup\\STUDY\\ps\\cpp\\Alone\\BIGSTONE\\week1\\0_2559.cpp","tests":[{"id":1732158797064,"input":"10 2\n3 -2 -4 -9 0 3 7 13 8 -3","output":"21"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\backup\\STUDY\\ps\\cpp\\Alone\\BIGSTONE\\week1\\0_2559.cpp","group":"local","local":true}

@@ -28,3 +28,26 @@ ret = min(ret,value)
 
 ret = -10000004  -> 문제의 조건에서 만들 수 있는 가장 작은 수
 
+>>1620
+==map은 이진트리 구조의 자료구조 -> o(logn)
+find = o(n)
+map = o(logn)
+
+string -> int
+arr = o(n)
+map = o(logn)
+
+int -> string
+arr = o(1)
+amp = o(logn)
+
+==map 사용법
+map<int,string> imap;
+imap[i+1]=str;
+
+==stringstream 사용법
+string input
+cin>>input
+int num
+stringstream ss(num)
+if(ss>>num)
