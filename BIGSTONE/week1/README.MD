@@ -53,21 +53,41 @@ stringstream ss(num)
 if(ss>>num)
 
 >>9375
-==
+== using
+
 typedef :옛날거, 이제는 using을 사용하자
 using name = ~;
 
-==
-멀티맵 사용법
+== 멀티맵 사용법
+
 []를 사용해서 추가하는건 불가, 대신에 pair사용해서 insert해야한다
 smap.insert(spair(str1,str2));
 
-==
-const,&
+== const,&
 
 const는 혹시 모를 데이터 변경방지 위해서
 &는 참조를 사용, 그냥 쓰면 복사를 사용
 참조가 훨씬 빠르다
 
->>
+>>1213
+== map 정렬하는법
 
+기본적으로 map은 오름차순이다
+만약 내림차순으로 정렬하고 싶으면
+map<char, int, greater<char>> mmap;
+이런식으로 선언할때부터 내림차순으로 정렬하도록 선언해야한다
+
+== map 사용법
+map<char, int, greater<char>> mmap;
+for(auto &entry : mmap)
+
+맵의key가 char이기 때문에 iterator를 사용해서 반복문 돌아야 한다
+
+== string 사용법
+result =  entry.first+result;
+result += entry.first;
+이런식으로 기존 문자열 양옆에 붙일 수 있다
+
+== string.insert()
+result.insert(result.begin()+result.size()/2,mid)
+str.insert(위치,매개변수)
