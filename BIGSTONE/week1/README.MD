@@ -51,3 +51,23 @@ cin>>input
 int num
 stringstream ss(num)
 if(ss>>num)
+
+>>9375
+==
+typedef :옛날거, 이제는 using을 사용하자
+using name = ~;
+
+==
+멀티맵 사용법
+[]를 사용해서 추가하는건 불가, 대신에 pair사용해서 insert해야한다
+smap.insert(spair(str1,str2));
+
+==
+const,&
+
+const는 혹시 모를 데이터 변경방지 위해서
+&는 참조를 사용, 그냥 쓰면 복사를 사용
+참조가 훨씬 빠르다
+
+>>
+
