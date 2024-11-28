@@ -14,7 +14,8 @@ int main(){
         cin>>num;
         arr[num]++;
     }
-    for(int i=-mx;i<mx;i++){
-        for(int j=0;j<arr[i];j++) cout<<i<<"\n";
+    for(ll i=-mx;i<mx;i++){
+        if(arr[i]==0) continue; 
+        for(ll j=0;j<arr[i];j++) cout<<i<<"\n";
     }
 }
