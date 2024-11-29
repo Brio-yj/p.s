@@ -1,3 +1,4 @@
+/*
 #include <bits/stdc++.h>
 #define x first
 #define y second
@@ -34,3 +35,6 @@ int main(){
 
 
 }
+
+*/
+
