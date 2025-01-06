@@ -2,8 +2,9 @@
 using namespace std;
 
 vector<string> split(string str, string del){
+    vector<string> sv;
     auto start =0;
-    auto end = str.find(del);
+    auto end = str.find_first_of(del);
 
     vector<string> sv;
     while(end != string::npos){

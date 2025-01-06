@@ -104,5 +104,6 @@
   "editor.indentSize": "tabSize",
   "indentRainbow.indicatorStyle": "light",
   "indentRainbow.lightIndicatorStyleLineWidth": 3,
-  "editor.fontFamily": "D2Coding, Consolas, 'Courier New', monospace"
+  "editor.fontFamily": "D2Coding, Consolas, 'Courier New', monospace",
+  "C_Cpp.clang_format_fallbackStyle": "visual studio"
 }
