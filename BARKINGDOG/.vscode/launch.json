@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "e:/backup/STUDY/ps/cpp/Alone/BARKINGDOG",
-      "program": "e:/backup/STUDY/ps/cpp/Alone/BARKINGDOG/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
