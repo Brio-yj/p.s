@@ -49,6 +49,7 @@ void cal_J(){
         int x = cur.X;
         int y = cur.Y;
         q_J.pop();
+        
     }
 }
 int main() {
